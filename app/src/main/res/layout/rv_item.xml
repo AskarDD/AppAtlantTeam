@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:background="@color/cardview_shadow_end_color"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:text="@string/name"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/tvName"
+        tools:hint="@string/name"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:text="@string/username"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_alignTop="@+id/tvName"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:id="@+id/tvUserName"
+        tools:hint="@string/username"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_alignTop="@+id/tvName"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:text="@string/email"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_alignTop="@+id/tvUserName"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:id="@+id/tvMail"
+        tools:hint="@string/email"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_alignTop="@+id/tvUserName"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:text="@string/phone"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_alignTop="@+id/tvMail"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:id="@+id/tvPhone"
+        tools:hint="@string/phone"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_alignTop="@+id/tvMail"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:text="@string/website"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_alignTop="@+id/tvPhone"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:id="@+id/tvWebsite"
+        tools:hint="@string/website"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_alignTop="@+id/tvPhone"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:text="@string/address"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_alignTop="@+id/tvWebsite"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:id="@+id/tvStreet"
+        tools:hint="@string/street"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_alignTop="@+id/tvWebsite"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:id="@+id/tvSuite"
+        tools:hint="@string/suite"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_alignTop="@+id/tvStreet"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:id="@+id/tvCity"
+        tools:hint="@string/city"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_alignTop="@+id/tvSuite"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:id="@+id/tvZipcode"
+        tools:hint="@string/zipcode"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_alignTop="@+id/tvCity"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:text="@string/company"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_alignTop="@+id/tvZipcode"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:id="@+id/tvCompany"
+        tools:hint="@string/company"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvZipcode"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AppAtlantTeam</string>
+    <string name="post">post №</string>
+    <string name="submit">submit</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="next"><![CDATA[>]]></string>
+    <string name="comment">comment №</string>
+    <string name="name">name:</string>
+    <string name="username">userName:</string>
+    <string name="email">email:</string>
+    <string name="phone">phone:</string>
+    <string name="website">website:</string>
+    <string name="address">address:</string>
+    <string name="street">street</string>
+    <string name="suite">suite</string>
+    <string name="city">city</string>
+    <string name="zipcode">zipcode</string>
+    <string name="company">company:</string>
+    <string name="fullName">Джакиев Аскар Джасуланович</string>
+    <string name="age">Возраст: 32 года</string>
+    <string name="e_mail">E-mail: as-dzhakiev@yandex.ru</string>
+    <string name="telegram">Telegram: @AskarDz</string>
+    <string name="sitizenship">Гражданство: РОССИЯ</string>
+    <string name="telephone">Телефон: 8(927)-229-08-58</string>
+    <string name="university">Саратовский государственный университет им Н.Г.Чернышевского</string>
+    <string name="faculty">Факультет нелинейных процессов</string>
+    <string name="specialty">Специальность: компьютерные методы физики</string>
+</resources>
